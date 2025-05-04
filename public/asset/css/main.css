@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.header-container{
+    background-color: #fff;
+
+}
+.post-content{
+    background-color: #fff;
+}
+.form-input{
+    width: 100%;
+}
+.form-btn{
+    width: 100%;
+}
+.border-red{
+    border-color: light-dark(red, red) !important;
+    
+}
+.form-label{
+    font-weight: 500;
+    font-size: 18px;
+}
+.header-btn{
+    background-color: #fff;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
