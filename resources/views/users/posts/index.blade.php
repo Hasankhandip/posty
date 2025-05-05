@@ -1,31 +1,9 @@
 @extends('layouts.app')
-
 @section('content')
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="post-content p-5">
-                    <form action="{{ route('posts') }}" method="post" class="mb-5">
-                        @csrf
-                        <div class="mb-4">
-
-                            <textarea name="body" id="body" cols="30" rows="4"
-                                class="post-textarea @error('body') border-red
-                                    @enderror"
-                                placeholder="Post Something!"></textarea>
-
-                            @error('body')
-                                <div class="text-danger mt-2 ">
-                                    {{ $message }}
-                                </div>
-                            @enderror
-                        </div>
-
-                        <div>
-                            <button type="submit" class="btn btn-primary py-2 px-5">Post</button>
-                        </div>
-                    </form>
-
                     @if ($posts->count())
                         @foreach ($posts as $post)
                             <div class="mb-4">

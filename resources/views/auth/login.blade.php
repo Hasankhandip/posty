@@ -30,6 +30,13 @@
                                     </div>
                                     @enderror
                                 </div>
+
+                                <div class="mb-4">
+                                    <div class="d-flex align-items-center">
+                                        <input type="checkbox" name="remember" id="remember" class="me-2">
+                                        <label for="remember">Remember me</label>
+                                    </div>
+                                </div>
                                 
                                 <div>
                                     <button class="btn btn-primary form-btn p-3" type="submit">Login</button>
